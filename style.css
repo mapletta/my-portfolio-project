@@ -1,23 +1,37 @@
 :root {
   --primary-color: #807e7a;
 }
-
-h1,
-h2,
-h3 {
-  font-family: "Poppins", sans-serif;
+body {
+  background: #e7eaf6;
 }
+h1,
+h2 {
+  font-family: "Splash", cursive;
+  text-align: center;
+}
+
 h1 {
   font-size: 96px;
 }
 h2 {
   padding-top: 35px;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: "Josefin Slab", serif;
 }
 
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
   }
+}
+img {
+  border-radius: 300px;
+}
+.container {
+  padding-top: 35px;
 }
 .navigation-links {
   display: flex;
@@ -34,6 +48,8 @@ h2 {
 .contact-link {
   background: var(--primary-color);
   color: whitesmoke;
+  font-size: 18px;
+  font-family: "Josefin Slab", serif;
 }
 .contact-link:hover {
   color: var(--primary-color);
@@ -43,8 +59,15 @@ h2 {
 .about-me-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-size: 18px;
+  font-family: "Josefin Slab", serif;
 }
 .about-me-link:hover {
   background: var(--primary-color);
   color: whitesmoke;
+}
+.navbar a {
+  font-family: "Josefin Slab", serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
