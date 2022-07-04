@@ -30,6 +30,15 @@ h3 {
 img {
   border-radius: 300px;
 }
+i {
+  color: black;
+  font-size: 19px;
+  padding: 0 5px;
+}
+footer {
+  text-align: center;
+}
+
 .container {
   padding-top: 35px;
 }
@@ -70,4 +79,17 @@ img {
   font-family: "Josefin Slab", serif !important;
   font-size: 18px !important;
   font-weight: bold !important;
+}
+.content-page {
+  padding: 65px 100px;
+  margin: 20px;
+}
+.col-sm-6 {
+  padding: 20px;
+}
+.email {
+  text-align: center;
+}
+.about-me-p {
+  line-height: 30px;
 }
