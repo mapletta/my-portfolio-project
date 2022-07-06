@@ -18,13 +18,19 @@ h2 {
   font-size: 48px;
 }
 
-h3 {
+h3,
+h5 {
   font-family: "Josefin Slab", serif;
 }
-
+h5 {
+  font-weight: bolder;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
 img {
@@ -38,10 +44,11 @@ i {
 footer {
   text-align: center;
 }
-
-.container {
-  padding-top: 35px;
+li {
+  list-style: none;
+  text-align: left;
 }
+
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -84,6 +91,9 @@ footer {
   padding: 65px 100px;
   margin: 20px;
 }
+.container {
+  padding-top: 35px;
+}
 .col-sm-6 {
   padding: 20px;
 }
@@ -92,4 +102,17 @@ footer {
 }
 .about-me-p {
   line-height: 30px;
+}
+
+.pattern {
+  border-radius: 0px;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  font-size: larger;
+}
+.section-heading {
+  font-family: "Splash", cursive;
+  font-size: 40px;
 }
