@@ -43,12 +43,19 @@ i {
 }
 footer {
   text-align: center;
+  padding: 50px;
 }
 li {
   list-style: none;
   text-align: left;
 }
-
+a {
+  text-decoration: none;
+  color: #212529;
+}
+a:hover {
+  color: #212529;
+}
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -94,6 +101,7 @@ li {
 .container {
   padding-top: 35px;
 }
+
 .col-sm-6 {
   padding: 20px;
 }
