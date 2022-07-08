@@ -102,8 +102,10 @@ li {
   margin: 0 auto;
   padding: 35px;
 }
+
 .about-me-p {
   line-height: 30px;
+  font-family: "Dosis", sans-serif;
 }
 
 .pattern {
